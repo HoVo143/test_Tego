@@ -16,7 +16,7 @@ export const dataBrowse = [
   // }
   {
     _id: 1,
-    images: 'https://cf.shopee.vn/file/b707529ee294d8a40731effe7e4375ee',
+    images: '/public/static/images/Browse_1.jpg',
     title: 'Dining'
   },
   {
