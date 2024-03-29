@@ -332,10 +332,9 @@ function BoardContent() {
                   zIndex: 1,
                   width: '500px',
                   height: '754px',
-                  objectFit: 'cover',
                   [theme.breakpoints.down('sm')]: {
-                    width: '250px',
-                    height: '350px'
+                    width: '281px',
+                    height: '423px'
                   }
                 }}
               />
@@ -350,9 +349,9 @@ function BoardContent() {
                   width: '372px',
                   objectFit: 'contain',
                   [theme.breakpoints.down('sm')]: {
-                    width: '200px',
-                    top: '23%',
-                    right: '15px'
+                    width: '250px',
+                    top: '20%',
+                    right: '20px'
                   }
                 }}
               />
