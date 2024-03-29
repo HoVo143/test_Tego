@@ -81,7 +81,7 @@ function BoardContent() {
           <Grid xs={12} sm={6} md={4} sx={BOARD_STYLES}>
             <CardMedia
               component="img"
-              image="/src/assets/Groupcar.svg"
+              image="./src/assets/Groupcar.svg"
               alt="Ship"
               sx={{
                 width: '70.64px',
@@ -97,7 +97,7 @@ function BoardContent() {
           <Grid xs={12} sm={6} md={4} sx={BOARD_STYLES}>
             <CardMedia
               component="img"
-              image="/src/assets/Groupsupport.svg"
+              image="./src/assets/Groupsupport.svg"
               alt="Support"
               sx={{
                 width: '59.95px',
@@ -113,7 +113,7 @@ function BoardContent() {
           <Grid xs={12} sm={6} md={4} sx={BOARD_STYLES}>
             <CardMedia
               component="img"
-              image="/src/assets/authentic.svg"
+              image="./src/assets/authentic.svg"
               alt="Authentic"
               sx={{
                 width: '55px',
