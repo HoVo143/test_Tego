@@ -91,7 +91,7 @@ function Footer() {
                 }
               }}>
               <img
-                style={{ minWidth: '175px', minHeight: '185px' }}
+                style={{ width: '175px', height: '185px' }}
                 alt={item?.title}
                 src={item?.images}
               />
