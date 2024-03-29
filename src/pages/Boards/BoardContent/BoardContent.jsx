@@ -51,7 +51,7 @@ function BoardContent() {
               }}
             >
               <img
-                style={{ width: '381px', height: '480px' }}
+                style={{ width: '381px', height: '480px', objectFit: 'cover' }}
                 alt={item?.title}
                 src={item?.images}
               />
@@ -308,6 +308,7 @@ function BoardContent() {
               sx={{
                 position: 'relative',
                 mt: '60px',
+                minWidth: '700px',
                 [theme.breakpoints.down('sm')]: {
                   // maxWidth: '320px'
                   display: 'flex',
@@ -324,7 +325,7 @@ function BoardContent() {
                   zIndex: 1,
                   width: '500px',
                   height: '754px',
-                  objectFit: 'contain',
+                  objectFit: 'cover',
                   borderTopLeftRadius: '20%',
                   borderBottomRightRadius: '20%',
                   [theme.breakpoints.down('sm')]: {
@@ -338,7 +339,7 @@ function BoardContent() {
                 alt="Ship"
                 sx={{
                   top: '20%',
-                  right: '1%',
+                  right: '10%',
                   position: 'absolute',
                   width: '372px',
                   objectFit: 'contain',
@@ -427,7 +428,7 @@ function BoardContent() {
               >
                 <Box sx={{ position: 'relative', display: 'flex', justifyContent: 'center' }}>
                   <img
-                    style={{ width: '381px', height: '400px' }}
+                    style={{ width: '381px', height: '400px', objectFit: 'cover' }}
                     alt={item?.title}
                     src={item?.images}
                   />

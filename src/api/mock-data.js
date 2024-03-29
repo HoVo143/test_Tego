@@ -34,7 +34,7 @@ export const dataBrowse = [
 export const dataWorks = [
   {
     _id: 1,
-    images: 'https://noithatmay.vn/images/thumbs/0000192_ghe-7-nan-chan-cheo.webp',
+    images: 'https://media.istockphoto.com/id/879751676/vi/anh/m%E1%BB%99t-%C3%ADt-c%C3%A0-ph%C3%AA-cho-ca-%C4%91%C3%AAm-mu%E1%BB%99n.jpg?s=612x612&w=0&k=20&c=-xZODpLgHdNdV2AHt6c6RdRl2nqgWBz-Lf4gbJuay_g=',
     title: 'Purchase Securely',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
   },
@@ -46,7 +46,7 @@ export const dataWorks = [
   },
   {
     _id: 3,
-    images: 'https://images2.thanhnien.vn/528068263637045248/2023/3/16/anh-5-1678936526391411141780.jpg',
+    images: 'https://designlife.vn/wp-content/uploads/2015/02/MG_7373.jpg',
     title: 'Style Your Room',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
   }
