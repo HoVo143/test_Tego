@@ -16,7 +16,7 @@ export const dataBrowse = [
   // }
   {
     _id: 1,
-    images: 'https://cf.shopee.vn/file/b707529ee294d8a40731effe7e4375ee',
+    images: 'https://www.figma.com/file/28IH8qHqYfKAiMqjiOpsYX/INTERNSHIP?type=design&node-id=474-462&mode=design&t=y7adZkeYOYrAODTN-4',
     title: 'Dining'
   },
   {
@@ -46,7 +46,7 @@ export const dataWorks = [
   },
   {
     _id: 3,
-    images: 'https://designlife.vn/wp-content/uploads/2015/02/MG_7373.jpg',
+    images: 'https://images2.thanhnien.vn/528068263637045248/2023/3/16/anh-5-1678936526391411141780.jpg',
     title: 'Style Your Room',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
   }
