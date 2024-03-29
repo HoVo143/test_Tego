@@ -83,7 +83,7 @@ function Footer() {
                 },
                 cursor: 'pointer',
                 [theme.breakpoints.down('sm')]: {
-                  m: '15px auto',
+                  m: '5px auto',
                   '&:hover': {
                     transform: 'unset'
                   }

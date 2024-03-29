@@ -196,7 +196,7 @@ function BoardContent() {
               }}
             >
               <img
-                style={{ width: '355px', height: '434px' }}
+                style={{ width: '355px', height: '434px', borderTopLeftRadius: '20%' }}
                 src="https://flexhouse.vn/wp-content/uploads/2023/11/den-cay-dung-goc-sofa-hien-dai-toi-gian-kieu-y-hx4517-4.jpg"
               />
             </Box>
@@ -243,7 +243,7 @@ function BoardContent() {
               }}
             >
               <img
-                style={{ width: '355px', height: '434px' }}
+                style={{ width: '355px', height: '434px', borderBottomRightRadius: '20%' }}
                 src="https://bizweb.dktcdn.net/thumb/1024x1024/100/358/409/products/sofa-van-hien-dai-sff.jpg?v=1675323009233"
               />
             </Box>
@@ -356,8 +356,8 @@ function BoardContent() {
                   borderTopLeftRadius: '20%',
                   borderBottomRightRadius: '20%',
                   [theme.breakpoints.down('sm')]: {
-                    width: '300px',
-                    height: '450px'
+                    width: '250px',
+                    height: '350px'
                   }
                 }}
               />
