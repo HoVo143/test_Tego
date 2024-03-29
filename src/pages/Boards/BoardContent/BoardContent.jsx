@@ -244,7 +244,7 @@ function BoardContent() {
           container
           sx={{
             display: 'flex',
-            justifyContent: 'space-between',
+            justifyContent: 'center',
             alignItems: 'center',
             p: '0 160px',
             [theme.breakpoints.down('sm')]: {
@@ -308,7 +308,8 @@ function BoardContent() {
               sx={{
                 position: 'relative',
                 mt: '60px',
-                minWidth: '700px',
+                minWidth: '650px',
+                maxWidth: '650px',
                 [theme.breakpoints.down('sm')]: {
                   // maxWidth: '320px'
                   display: 'flex',
@@ -339,7 +340,7 @@ function BoardContent() {
                 alt="Ship"
                 sx={{
                   top: '20%',
-                  right: '10%',
+                  left: '40%',
                   position: 'absolute',
                   width: '372px',
                   objectFit: 'contain',
