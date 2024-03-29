@@ -90,7 +90,7 @@ function Footer() {
                 }
               }}>
               <img
-                style={{ width: '175px', height: '185px' }}
+                style={{ width: '175px', height: '185px', objectFit: 'cover' }}
                 alt={item?.title}
                 src={item?.images}
               />
