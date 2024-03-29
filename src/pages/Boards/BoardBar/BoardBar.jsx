@@ -18,7 +18,8 @@ function BoardBar() {
       backgroundImage: 'url(\'/static/images/Maskgroup.jpg\')',
       backgroundSize: '100% 100%',
       [theme.breakpoints.down('sm')]: {
-        minHeight: 'auto'
+        minHeight: 'auto',
+        backgroundSize: 'cover'
       }
       // imageRendering: 'auto'
     }}>
