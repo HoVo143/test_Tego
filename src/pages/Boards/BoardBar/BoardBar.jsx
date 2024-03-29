@@ -15,7 +15,7 @@ function BoardBar() {
       flexDirection: 'column',
       alignItems: 'end',
       justifyContent: 'center',
-      backgroundImage: 'url(\'https://png.pngtree.com/thumb_back/fw800/background/20230718/pngtree-contemporary-armchair-in-a-sleek-minimalist-interior-3d-rendered-design-on-image_3902807.jpg\')',
+      backgroundImage: 'url(\'/static/images/Maskgroup.jpg\')',
       backgroundSize: '100% 100%',
       [theme.breakpoints.down('sm')]: {
         minHeight: 'auto'

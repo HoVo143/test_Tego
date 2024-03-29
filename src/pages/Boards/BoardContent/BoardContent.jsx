@@ -8,9 +8,7 @@ import Button from '@mui/material/Button'
 import Paper from '@mui/material/Paper'
 import InputBase from '@mui/material/InputBase'
 import { useTheme } from '@mui/material/styles'
-import LocalShippingIcon from '@mui/icons-material/LocalShipping'
-import SupportAgentIcon from '@mui/icons-material/SupportAgent'
-import GppGoodIcon from '@mui/icons-material/GppGood'
+
 
 function BoardContent() {
   const theme = useTheme()
@@ -85,66 +83,48 @@ function BoardContent() {
             }
           }}>
           <Grid xs={12} sm={6} md={4} sx={BOARD_STYLES}>
-            {/* <CardMedia
+            <CardMedia
               component="img"
-              image="./src/assets/Groupcar.svg"
+              image="/static/images/Groupcar.svg"
               alt="Ship"
               sx={{
                 width: '70.64px',
                 height: '50px',
                 objectFit: 'contain',
                 mr: '27px'
-              }}/> */}
-            <LocalShippingIcon sx={{
-              width: '70.64px',
-              height: '50px',
-              objectFit: 'contain',
-              mr: '27px'
-            }}/>
+              }}/>
             <Box>
               <Box sx={{ fontSize: '24px', fontWeight: '600' }}>Free Delivery</Box>
               <Box sx={{ fontSize: '16px' }}>Lorem ipsum dolor sit amet.</Box>
             </Box>
           </Grid>
           <Grid xs={12} sm={6} md={4} sx={BOARD_STYLES}>
-            {/* <CardMedia
+            <CardMedia
               component="img"
-              image="./src/assets/Groupsupport.svg"
+              image="/static/images/Groupsupport.svg"
               alt="Support"
               sx={{
                 width: '59.95px',
                 height: '49.34px',
                 objectFit: 'contain',
                 mr: '27px'
-              }}/> */}
-            <SupportAgentIcon sx={{
-              width: '59.95px',
-              height: '49.34px',
-              objectFit: 'contain',
-              mr: '27px'
-            }}/>
+              }}/>
             <Box>
               <Box sx={{ fontSize: '24px', fontWeight: '600' }}>Support 24/7</Box>
               <Box sx={{ fontSize: '16px' }}>Lorem ipsum dolor sit amet.</Box>
             </Box>
           </Grid>
           <Grid xs={12} sm={6} md={4} sx={BOARD_STYLES}>
-            {/* <CardMedia
+            <CardMedia
               component="img"
-              image="./src/assets/authentic.svg"
+              image="/static/images/authentic.svg"
               alt="Authentic"
               sx={{
                 width: '55px',
                 height: '55px',
                 objectFit: 'contain',
                 mr: '27px'
-              }}/> */}
-            <GppGoodIcon sx={{
-              width: '55px',
-              height: '55px',
-              objectFit: 'contain',
-              mr: '27px'
-            }}/>
+              }}/>
             <Box>
               <Box sx={{ fontSize: '24px', fontWeight: '600' }}>100% Authentic</Box>
               <Box sx={{ fontSize: '16px' }}>Lorem ipsum dolor sit amet.</Box>
@@ -196,8 +176,8 @@ function BoardContent() {
               }}
             >
               <img
-                style={{ width: '355px', height: '434px', borderTopLeftRadius: '20%' }}
-                src="https://flexhouse.vn/wp-content/uploads/2023/11/den-cay-dung-goc-sofa-hien-dai-toi-gian-kieu-y-hx4517-4.jpg"
+                style={{ width: '355px', height: '434px' }}
+                src="/static/images/GroupCollection_1.jpg"
               />
             </Box>
           </Grid>
@@ -219,7 +199,7 @@ function BoardContent() {
             >
               <img
                 style={{ width: '355px', height: '434px' }}
-                src="https://image.made-in-china.com/44f3j00QZTWGewJHtcp/New-Arrival-Modern-Living-Room-Furniture-Metal-Frame-Sofas-1-2-3-4-Seater-Leather-Couch-Factory-Custom-Made-Sofa.webp"
+                src="/static/images/GroupCollection_2.jpg"
               />
             </Box>
           </Grid>
@@ -243,8 +223,8 @@ function BoardContent() {
               }}
             >
               <img
-                style={{ width: '355px', height: '434px', borderBottomRightRadius: '20%' }}
-                src="https://bizweb.dktcdn.net/thumb/1024x1024/100/358/409/products/sofa-van-hien-dai-sff.jpg?v=1675323009233"
+                style={{ width: '355px', height: '434px'}}
+                src="/static/images/GroupCollection_3.jpg"
               />
             </Box>
           </Grid>
@@ -345,7 +325,7 @@ function BoardContent() {
             >
               <CardMedia
                 component="img"
-                image="https://lh3.googleusercontent.com/proxy/TsA-RqdIyhahgfm4xTo4A2zQkRN0Qn4AWn0FUjzr9LumWhAUT_bv0OQtP8OoCFxdYpogP1OTJaExvfEt-Kmf_EgtpHK4QHtz4WyX2EI70fhsCO2IENgXp6p_T1P3hKGbvLScLrlbeliKBA0MgXBG4nJ8zOYF"
+                image="/static/images/beautify_1.svg"
                 alt="Ship"
                 sx={{
                   position: 'relative',
@@ -353,8 +333,6 @@ function BoardContent() {
                   width: '500px',
                   height: '754px',
                   objectFit: 'cover',
-                  borderTopLeftRadius: '20%',
-                  borderBottomRightRadius: '20%',
                   [theme.breakpoints.down('sm')]: {
                     width: '250px',
                     height: '350px'
@@ -363,7 +341,7 @@ function BoardContent() {
               />
               <CardMedia
                 component="img"
-                image="https://emojigraph.org/media/twitter/black-circle_26ab.png"
+                image="/static/images/sbeautify_2.svg"
                 alt="Ship"
                 sx={{
                   top: '20%',
