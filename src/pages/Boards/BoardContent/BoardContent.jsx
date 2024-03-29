@@ -310,8 +310,11 @@ function BoardContent() {
                 mt: '60px',
                 minWidth: '650px',
                 maxWidth: '650px',
+                display: 'flex',
+                justifyContent: 'center',
                 [theme.breakpoints.down('sm')]: {
-                  // maxWidth: '320px'
+                  minWidth: '150px',
+                  // maxWidth: '150px',
                   display: 'flex',
                   justifyContent: 'center'
                 }
@@ -330,7 +333,8 @@ function BoardContent() {
                   borderTopLeftRadius: '20%',
                   borderBottomRightRadius: '20%',
                   [theme.breakpoints.down('sm')]: {
-                    width: '290px'
+                    width: '300px',
+                    height: '450px'
                   }
                 }}
               />
@@ -340,14 +344,14 @@ function BoardContent() {
                 alt="Ship"
                 sx={{
                   top: '20%',
-                  left: '40%',
+                  right: 0,
                   position: 'absolute',
                   width: '372px',
                   objectFit: 'contain',
                   [theme.breakpoints.down('sm')]: {
-                    width: '300px',
-                    top: '18%',
-                    right: 25
+                    width: '200px',
+                    top: '23%',
+                    right: '15px'
                   }
                 }}
               />
