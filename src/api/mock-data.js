@@ -16,7 +16,7 @@ export const dataBrowse = [
   // }
   {
     _id: 1,
-    images: '/public/static/images/Browse_1.jpg',
+    images: '/static/images/Browse_1.jpg',
     title: 'Dining'
   },
   {
