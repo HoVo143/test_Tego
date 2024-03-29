@@ -15,7 +15,7 @@ function BoardBar() {
       flexDirection: 'column',
       alignItems: 'end',
       justifyContent: 'center',
-      backgroundImage: 'url(\'/src/assets/Maskgroup.jpg\')',
+      backgroundImage: 'url(\'/src/assets/discorver.svg\')',
       backgroundSize: '100% 100%',
       [theme.breakpoints.down('sm')]: {
         minHeight: 'auto'
