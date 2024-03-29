@@ -3,7 +3,7 @@ import Grid from '@mui/material/Grid'
 import Typography from '@mui/material/Typography'
 import CardContent from '@mui/material/CardContent'
 import CardMedia from '@mui/material/CardMedia'
-import { dataBrowse, dataWorks } from '../../../api/mock-data'
+import { dataBrowse, dataWorks } from '../../../api/mock-data.js'
 import Button from '@mui/material/Button'
 import Paper from '@mui/material/Paper'
 import InputBase from '@mui/material/InputBase'
@@ -81,7 +81,7 @@ function BoardContent() {
           <Grid xs={12} sm={6} md={4} sx={BOARD_STYLES}>
             <CardMedia
               component="img"
-              image="./src/assets/Groupcar.svg"
+              image="../../../src/assets/Groupcar.svg"
               alt="Ship"
               sx={{
                 width: '70.64px',
@@ -168,7 +168,7 @@ function BoardContent() {
             >
               <img
                 style={{ width: '355px', height: '434px' }}
-                src="/src/assets/GroupCollection_1.jpg"
+                src="./src/assets/GroupCollection_1.jpg"
               />
             </Box>
           </Grid>
