@@ -471,7 +471,7 @@ function BoardContent() {
                       position: 'absolute',
                       minWidth: 90,
                       minHeight: 90,
-                      bottom: '-12%',
+                      bottom: '-11%',
                       bgcolor: 'white',
                       borderRadius: '50%',
                       display: 'flex',
