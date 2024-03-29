@@ -34,7 +34,7 @@ export const dataBrowse = [
 export const dataWorks = [
   {
     _id: 1,
-    images: './src/assets/anh1.jpg',
+    images: 'https://noithatmay.vn/images/thumbs/0000192_ghe-7-nan-chan-cheo.webp',
     title: 'Purchase Securely',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
   },
