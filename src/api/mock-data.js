@@ -16,7 +16,7 @@ export const dataBrowse = [
   // }
   {
     _id: 1,
-    images: 'https://www.figma.com/file/28IH8qHqYfKAiMqjiOpsYX/INTERNSHIP?type=design&node-id=474-462&mode=design&t=y7adZkeYOYrAODTN-4',
+    images: 'https://cf.shopee.vn/file/b707529ee294d8a40731effe7e4375ee',
     title: 'Dining'
   },
   {
