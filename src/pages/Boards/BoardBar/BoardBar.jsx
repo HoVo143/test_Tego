@@ -15,7 +15,7 @@ function BoardBar() {
       flexDirection: 'column',
       alignItems: 'end',
       justifyContent: 'center',
-      backgroundImage: 'url(\'/src/assets/discorver.svg\')',
+      backgroundImage: 'url(\'https://www.noithattanhoaphat.vn/wp-content/uploads/2022/06/thiet-ke-noi-that-biet-thu-hien-dai-anh-bia.jpg\')',
       backgroundSize: '100% 100%',
       [theme.breakpoints.down('sm')]: {
         minHeight: 'auto'
