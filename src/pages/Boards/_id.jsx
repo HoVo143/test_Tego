@@ -2,6 +2,7 @@ import Container from '@mui/material/Container'
 import AppBar from '~/components/AppBar/AppBar'
 import BoardBar from './BoardBar/BoardBar'
 import BoardContent from './BoardContent/BoardContent'
+import Footer from '~/components/Footer/Footer'
 
 function Board() {
   return (
@@ -9,6 +10,7 @@ function Board() {
       <AppBar/>
       <BoardBar/>
       <BoardContent/>
+      <Footer/>
     </Container>
   )
 }

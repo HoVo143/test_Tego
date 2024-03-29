@@ -3,7 +3,7 @@ import Box from '@mui/material/Box'
 
 function Gallery() {
   return (
-    <Box>Gallery</Box>
+    <Box sx={{ cursor: 'pointer', '&:hover' : { color: 'info.main' } }}>Gallery</Box>
   )
 }
 

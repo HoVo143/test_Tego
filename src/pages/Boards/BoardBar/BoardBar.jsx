@@ -4,10 +4,10 @@ import Card from '@mui/material/Card'
 import CardContent from '@mui/material/CardContent'
 import Button from '@mui/material/Button'
 import Typography from '@mui/material/Typography'
-
+import { useTheme } from '@mui/material/styles'
 
 function BoardBar() {
-
+  const theme = useTheme()
   return (
     <Box sx={{
       width: '100%',
@@ -32,7 +32,10 @@ function BoardBar() {
           '&:hover': {
             transform: 'translateY(-5px)'
           },
-          cursor: 'pointer'
+          cursor: 'pointer',
+          [theme.breakpoints.down('sm')]: {
+            m: 'auto'
+          }
         }}>
         <CardContent>
           <Typography gutterBottom variant="h5" component="div"
@@ -67,7 +70,6 @@ function BoardBar() {
             sx={{
               fontSize: '18px',
               maxWidth: '546px',
-              minWidth: '546px',
               color: 'div.main',
               lineHeight: '39px',
               fontWeight: 'medium'
@@ -89,6 +91,9 @@ function BoardBar() {
               boxShadow: '0px 2px 4px rgba(0, 0, 0, 0.5)',
               '&:hover.MuiButton-root' :{
                 bgcolor: '#40739e'
+              },
+              [theme.breakpoints.down('sm')]: {
+                m: '15px -10px 0 10px'
               }
             }}
           >BUY NOW</Button>

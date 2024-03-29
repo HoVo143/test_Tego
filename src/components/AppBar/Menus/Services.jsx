@@ -3,7 +3,7 @@ import Box from '@mui/material/Box'
 
 function Services() {
   return (
-    <Box>Services</Box>
+    <Box sx={{ cursor: 'pointer', '&:hover' : { color: 'info.main' } }}>Services</Box>
   )
 }
 

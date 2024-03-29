@@ -36,3 +36,25 @@ export const dataWorks = [
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
   }
 ]
+export const dataFooter = [
+  {
+    _id: 1,
+    images: '/src/assets/IG-1Instagram_1.jpg',
+    title: 'Instagram_1'
+  },
+  {
+    _id: 2,
+    images: '/src/assets/IG-2Instagram_2.jpg',
+    title: 'Instagram_2'
+  },
+  {
+    _id: 3,
+    images: '/src/assets/IG-3Instagram_3.jpg',
+    title: 'Instagram_3'
+  },
+  {
+    _id: 4,
+    images: '/src/assets/IG-4Instagram_4.jpg',
+    title: 'Instagram_4'
+  }
+]
