@@ -66,6 +66,7 @@ function AppBar() {
           anchorEl={anchorEl}
           open={open}
           onClose={handleClose}
+          sx={{width: '500px'}}
         >
           <MenuItem>
             <Home/>

@@ -10,14 +10,17 @@ function BoardBar() {
   const theme = useTheme()
   return (
     <Box sx={{
-      width: '100%',
-      height: '749px',
+      minHeight: '749px',
       display: 'flex',
       flexDirection: 'column',
       alignItems: 'end',
       justifyContent: 'center',
       backgroundImage: 'url(\'/src/assets/Maskgroup.jpg\')',
-      backgroundSize: '100% 100%'
+      backgroundSize: '100% 100%',
+      [theme.breakpoints.down('sm')]: {
+        minHeight: 'auto'
+      }
+      // imageRendering: 'auto'
     }}>
       <Card
         sx={{
@@ -34,7 +37,14 @@ function BoardBar() {
           },
           cursor: 'pointer',
           [theme.breakpoints.down('sm')]: {
-            m: 'auto'
+            m: 'auto',
+            backgroundColor: 'rgba(0, 0, 0, 0.5)',
+            boxShadow: 'unset',
+            transition: 'transform 0.5s ease',
+            '&:hover': {
+              transform: 'unset'
+            },
+            borderRadius: 'unset'
           }
         }}>
         <CardContent>
@@ -43,7 +53,10 @@ function BoardBar() {
               color: 'div.main',
               fontSize: '16px',
               fontWeight: '600',
-              m: '0 0 20px 0'
+              m: '0 0 20px 0',
+              [theme.breakpoints.down('sm')]: {
+                color: 'white'
+              }
             }}
           >
             <div style={{
@@ -59,7 +72,10 @@ function BoardBar() {
               fontSize: '52px',
               fontWeight: 'bold',
               maxWidth: '488px',
-              lineHeight: '65px'
+              lineHeight: '65px',
+              [theme.breakpoints.down('sm')]: {
+                color: 'white'
+              }
             }}
           >
             Discover Our New Collectio
@@ -72,7 +88,10 @@ function BoardBar() {
               maxWidth: '546px',
               color: 'div.main',
               lineHeight: '39px',
-              fontWeight: 'medium'
+              fontWeight: 'medium',
+              [theme.breakpoints.down('sm')]: {
+                color: 'white'
+              }
             }}
           >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.
@@ -93,7 +112,9 @@ function BoardBar() {
                 bgcolor: '#40739e'
               },
               [theme.breakpoints.down('sm')]: {
-                m: '15px -10px 0 10px'
+                m: '15px -10px 0 10px',
+                bgcolor: 'white',
+                color: 'title.main'
               }
             }}
           >BUY NOW</Button>
