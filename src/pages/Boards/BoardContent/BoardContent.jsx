@@ -188,7 +188,7 @@ function BoardContent() {
               }}
             >
               <img
-                style={{ width: '355px', height: '434px'}}
+                style={{ width: '355px', height: '434px' }}
                 src="https://flexhouse.vn/wp-content/uploads/2023/11/den-cay-dung-goc-sofa-hien-dai-toi-gian-kieu-y-hx4517-4.jpg"
               />
             </Box>

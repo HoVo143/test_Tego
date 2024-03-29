@@ -1,6 +1,5 @@
 import Box from '@mui/material/Box'
 import Typography from '@mui/material/Typography'
-import CardMedia from '@mui/material/CardMedia'
 import { dataFooter } from '~/api/mock-data'
 import { useTheme } from '@mui/material/styles'
 

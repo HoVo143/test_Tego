@@ -66,27 +66,28 @@ function AppBar() {
           anchorEl={anchorEl}
           open={open}
           onClose={handleClose}
-          sx={{width: '500px'}}
         >
-          <MenuItem>
-            <Home/>
-          </MenuItem>
-          <Divider />
-          <MenuItem>
-            <Services/>
-          </MenuItem>
-          <Divider />
-          <MenuItem>
-            <Doctors/>
-          </MenuItem>
-          <Divider />
-          <MenuItem>
-            <Products/>
-          </MenuItem>
-          <Divider />
-          <MenuItem>
-            <Gallery/>
-          </MenuItem>
+          <Box sx={{ minWidth: '300px' }}>
+            <MenuItem>
+              <Home/>
+            </MenuItem>
+            <Divider />
+            <MenuItem>
+              <Services/>
+            </MenuItem>
+            <Divider />
+            <MenuItem>
+              <Doctors/>
+            </MenuItem>
+            <Divider />
+            <MenuItem>
+              <Products/>
+            </MenuItem>
+            <Divider />
+            <MenuItem>
+              <Gallery/>
+            </MenuItem>
+          </Box>
         </Menu>
       </Box>
     </div>
