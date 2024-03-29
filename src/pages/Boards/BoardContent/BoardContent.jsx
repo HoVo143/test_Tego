@@ -46,7 +46,10 @@ function BoardContent() {
                 cursor: 'pointer',
                 textAlign: 'center',
                 [theme.breakpoints.down('sm')]: {
-                  mt: '55px'
+                  mt: '55px',
+                  '&:hover': {
+                    transform: 'unset'
+                  }
                 }
               }}
             >
@@ -55,7 +58,7 @@ function BoardContent() {
                 alt={item?.title}
                 src={item?.images}
               />
-              <Typography variant="h6" sx={{ mt: '30px' }}>{item?.title}</Typography>
+              <Typography variant="h6" sx={{ mt: '30px', color: 'div.main', fontSize: '24px', fontWeight: '600' }}>{item?.title}</Typography>
             </Box>
           </Grid>
         ))}
@@ -184,7 +187,12 @@ function BoardContent() {
                   transform: 'translateY(-5px)'
                 },
                 cursor: 'pointer',
-                textAlign: 'center'
+                textAlign: 'center',
+                [theme.breakpoints.down('sm')]: {
+                  '&:hover': {
+                    transform: 'unset'
+                  }
+                }
               }}
             >
               <img
@@ -201,7 +209,12 @@ function BoardContent() {
                   transform: 'translateY(-5px)'
                 },
                 cursor: 'pointer',
-                textAlign: 'center'
+                textAlign: 'center',
+                [theme.breakpoints.down('sm')]: {
+                  '&:hover': {
+                    transform: 'unset'
+                  }
+                }
               }}
             >
               <img
@@ -221,7 +234,12 @@ function BoardContent() {
                   transform: 'translateY(-5px)'
                 },
                 cursor: 'pointer',
-                textAlign: 'center'
+                textAlign: 'center',
+                [theme.breakpoints.down('sm')]: {
+                  '&:hover': {
+                    transform: 'unset'
+                  }
+                }
               }}
             >
               <img
@@ -296,6 +314,11 @@ function BoardContent() {
                   boxShadow: '0px 2px 4px rgba(0, 0, 0, 0.5)',
                   '&:hover': {
                     bgcolor: '#40739e'
+                  },
+                  [theme.breakpoints.down('sm')]: {
+                    maxWidth: '180px',
+                    padding: '20px 32px',
+                    maxHeight:'60px'
                   }
                 }}
               >
@@ -408,7 +431,8 @@ function BoardContent() {
           sx={{
             textAlign:'center',
             color: 'p.main',
-            fontSize: '20px'
+            fontSize: '20px',
+            fontWeight: '400'
           }}
         >
            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -428,7 +452,12 @@ function BoardContent() {
                   },
                   cursor: 'pointer',
                   textAlign: 'center',
-                  mb: '65px'
+                  mb: '65px',
+                  [theme.breakpoints.down('sm')]: {
+                    '&:hover': {
+                      transform: 'unset'
+                    }
+                  }
                 }}
               >
                 <Box sx={{ position: 'relative', display: 'flex', justifyContent: 'center' }}>
@@ -468,7 +497,14 @@ function BoardContent() {
                     </Box>
                   </Box>
                 </Box>
-                <Typography variant="h6" sx={{ mt: '75px', fontWeight: 'bold' }}>{item?.title}</Typography>
+                <Typography variant="h6"
+                  sx={{
+                    mt: '75px',
+                    fontWeight: 'bold',
+                    fontSize: '24px',
+                    minWidth: '300px',
+                    color: 'div.main'
+                  }}>{item?.title}</Typography>
                 <Typography
                   variant="body1"
                   sx={{
@@ -477,6 +513,7 @@ function BoardContent() {
                     lineHeight: '28px',
                     fontSize: '18px',
                     minWidth: 381,
+                    fontWeight: 400,
                     [theme.breakpoints.down('sm')]: {
                       fontSize: '16px'
                       // width: 381
@@ -493,10 +530,13 @@ function BoardContent() {
         sx={{
           minHeight: '363px',
           bgcolor: 'primary.main',
-          mt :'95px',
+          mt :'75px',
           display: 'flex',
           justifyContent: 'center',
-          alignItems: 'center'
+          alignItems: 'center',
+          [theme.breakpoints.down('sm')]: {
+            mt :'0'
+          }
         }}>
         <Box sx={{ m : '71px 0 49px 0' }}>
           <Typography gutterBottom variant="h1" component="div"

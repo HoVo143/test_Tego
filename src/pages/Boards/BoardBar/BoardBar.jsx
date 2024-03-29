@@ -55,7 +55,8 @@ function BoardBar() {
               fontWeight: '600',
               m: '0 0 20px 0',
               [theme.breakpoints.down('sm')]: {
-                color: 'white'
+                color: 'white',
+                m: '0 0 35px 0'
               }
             }}
           >
@@ -74,7 +75,9 @@ function BoardBar() {
               maxWidth: '488px',
               lineHeight: '65px',
               [theme.breakpoints.down('sm')]: {
-                color: 'white'
+                color: 'white',
+                fontSize: '32px',
+                lineHeight: '50px',
               }
             }}
           >
@@ -90,7 +93,9 @@ function BoardBar() {
               lineHeight: '39px',
               fontWeight: 'medium',
               [theme.breakpoints.down('sm')]: {
-                color: 'white'
+                color: 'white',
+                lineHeight: '29px',
+                fontSize: '16px'
               }
             }}
           >
@@ -114,7 +119,10 @@ function BoardBar() {
               [theme.breakpoints.down('sm')]: {
                 m: '15px -10px 0 10px',
                 bgcolor: 'white',
-                color: 'title.main'
+                color: 'title.main',
+                maxWidth: '180px',
+                padding: '20px 42px',
+                maxHeight:'60px'
               }
             }}
           >BUY NOW</Button>
