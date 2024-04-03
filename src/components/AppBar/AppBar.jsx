@@ -35,8 +35,8 @@ function AppBar() {
       }}>
         <Box sx={{ display: 'flex', alignItems:' center', gap: 2 }}>
           <Box sx={{ display: 'flex', alignItems:' center', gap: 0.5 }}>
-            <MenuIcon onClick={handleClick} sx={{ display: { xs : 'block', sm: 'none' }, color: 'title.main', fontSize: '34px', fontWeight: 'bold', mr: '30px', ml: '-90px' }}/>
-            <Typography variant='span' sx={{ fontSize: '34px', fontWeight: 'bold', color: 'title.main', cursor: 'pointer' }}>
+            <MenuIcon onClick={handleClick} sx={{ display: { xs : 'block', sm: 'none' }, color: '#054C73', fontSize: '34px', fontWeight: 'bold', mr: '30px', ml: '-90px' }}/>
+            <Typography variant='span' sx={{ fontSize: '34px', fontWeight: 'bold', color: '#054C73', cursor: 'pointer' }}>
               Furniture
             </Typography>
           </Box>

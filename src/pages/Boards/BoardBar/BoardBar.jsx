@@ -51,7 +51,7 @@ function BoardBar() {
         <CardContent>
           <Typography gutterBottom variant="h5" component="div"
             sx={{
-              color: 'div.main',
+              color: '#333333',
               fontSize: '16px',
               fontWeight: '600',
               m: '0 0 20px 0',
@@ -70,7 +70,7 @@ function BoardBar() {
             sx={{
               display: 'flex',
               flexDirection: 'column',
-              color: 'title.main',
+              color: '#054C73',
               fontSize: '52px',
               fontWeight: 'bold',
               maxWidth: '488px',
@@ -90,7 +90,7 @@ function BoardBar() {
             sx={{
               fontSize: '18px',
               maxWidth: '546px',
-              color: 'div.main',
+              color: '#333333',
               lineHeight: '39px',
               fontWeight: 'medium',
               [theme.breakpoints.down('sm')]: {
@@ -108,7 +108,7 @@ function BoardBar() {
               maxWidth: '229px',
               maxHeight:'70px',
               borderRadius: '50px',
-              bgcolor: 'title.main',
+              bgcolor: '#054C73',
               fontWeight: 'bold',
               fontSize: '16px',
               padding: '25px 72px',
@@ -120,7 +120,7 @@ function BoardBar() {
               [theme.breakpoints.down('sm')]: {
                 m: '15px -10px 0 10px',
                 bgcolor: 'white',
-                color: 'title.main',
+                color: '#054C73',
                 maxWidth: '180px',
                 padding: '20px 42px',
                 maxHeight:'60px'

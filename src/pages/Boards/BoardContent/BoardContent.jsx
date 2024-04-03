@@ -17,7 +17,7 @@ function BoardContent() {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    color: 'div.main',
+    color: '#333333',
     minWidth: '340px',
     '&.MuiGrid-item': {
       paddingTop: 'unset'
@@ -56,7 +56,7 @@ function BoardContent() {
                 alt={item?.title}
                 src={item?.images}
               />
-              <Typography variant="h6" sx={{ mt: '30px', color: 'div.main', fontSize: '24px', fontWeight: '600' }}>{item?.title}</Typography>
+              <Typography variant="h6" sx={{ mt: '30px', color: '#333333', fontSize: '24px', fontWeight: '600' }}>{item?.title}</Typography>
             </Box>
           </Grid>
         ))}
@@ -138,7 +138,7 @@ function BoardContent() {
           sx={{
             mt:'60px',
             textAlign:'center',
-            color: 'div.main',
+            color: '#333333',
             fontWeight: 'bold',
             fontSize: '32px'
           }}
@@ -148,7 +148,7 @@ function BoardContent() {
         <Typography gutterBottom variant="p" component="div"
           sx={{
             textAlign:'center',
-            color: 'p.main',
+            color: '#666666',
             fontSize: '20px'
           }}
         >
@@ -257,7 +257,7 @@ function BoardContent() {
                 variant="h5"
                 component="div"
                 sx={{
-                  color: 'div.main',
+                  color: '#333333',
                   fontSize: '32px',
                   fontWeight: 'bold',
                   m: '0 0 20px 0',
@@ -275,7 +275,7 @@ function BoardContent() {
                   maxWidth: '514px',
                   minWidth: '340px',
                   minHeight: '122.56px',
-                  color: 'p.main',
+                  color: '#666666',
                   lineHeight: '39px'
                 }}
               >
@@ -286,7 +286,7 @@ function BoardContent() {
                   maxWidth: '229px',
                   maxHeight: '70px',
                   borderRadius: '50px',
-                  bgcolor: 'title.main',
+                  bgcolor: '#054C73',
                   fontWeight: 'bold',
                   fontSize: '16px',
                   padding: '25px 57px',
@@ -370,7 +370,7 @@ function BoardContent() {
           sx={{
             // marginTop:'55px',
             textAlign:'center',
-            color: 'div.main',
+            color: '#333333',
             fontWeight: 'bold',
             fontSize: '32px'
           }}
@@ -380,7 +380,7 @@ function BoardContent() {
         <Typography gutterBottom variant="p" component="div"
           sx={{
             textAlign:'center',
-            color: 'p.main',
+            color: '#666666',
             fontSize: '20px'
           }}
         >
@@ -397,7 +397,7 @@ function BoardContent() {
           sx={{
             mt:'60px',
             textAlign:'center',
-            color: 'div.main',
+            color: '#333333',
             fontWeight: 'bold',
             fontSize: '32px'
           }}
@@ -407,7 +407,7 @@ function BoardContent() {
         <Typography gutterBottom variant="p" component="div"
           sx={{
             textAlign:'center',
-            color: 'p.main',
+            color: '#666666',
             fontSize: '20px',
             fontWeight: '400'
           }}
@@ -480,12 +480,12 @@ function BoardContent() {
                     fontWeight: 'bold',
                     fontSize: '24px',
                     minWidth: '300px',
-                    color: 'div.main'
+                    color: '#333333'
                   }}>{item?.title}</Typography>
                 <Typography
                   variant="body1"
                   sx={{
-                    color: 'p.main',
+                    color: '#666666',
                     mt: '10px',
                     lineHeight: '28px',
                     fontSize: '18px',
@@ -520,7 +520,7 @@ function BoardContent() {
             sx={{
               mt:'60px',
               textAlign:'center',
-              color: 'div.main',
+              color: '#333333',
               fontWeight: 'bold',
               fontSize: '32px'
             }}
@@ -529,7 +529,7 @@ function BoardContent() {
           </Typography>
           <Typography gutterBottom variant="p" component="div"
             sx={{
-              color: 'p.main',
+              color: '#666666',
               fontSize: '20px',
               maxWidth: '514px',
               lineHeight: '39px',
@@ -576,7 +576,7 @@ function BoardContent() {
               sx={{
                 width: '153px',
                 height: '70px',
-                bgcolor: 'title.main',
+                bgcolor: '#054C73',
                 fontSize: '16px',
                 fontWeight: 'bold',
                 textTransform: 'none',
